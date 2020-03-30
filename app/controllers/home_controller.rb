@@ -4,6 +4,7 @@ class HomeController < ApplicationController
   before_action :set_build_time
 
   def index; end
+  def spicy_animals; end
 
   private
 
