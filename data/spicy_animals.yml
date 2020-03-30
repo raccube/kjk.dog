@@ -1,0 +1,61 @@
+---
+- name: Moose (dog)
+  type: Dog
+- name: Orca (dog)
+  type: Dog
+- name: Rags (dog)
+  type: Dog
+- name: Red Dog (Pilbara)
+  type: Dog
+- name: Alcohol (horse)
+  type: Horse
+- name: Apollo Eleven (horse)
+  type: Horse
+- name: Azertyuiop (horse)
+  type: Horse
+- name: Baguette (horse)
+  type: Horse
+- name: Barilla (horse)
+  type: Horse
+- name: Bee Bee Bee
+  type: Horse
+- name: Big Ben (horse)
+  type: Horse
+- name: Bold Personality
+  type: Horse
+- name: Cosmic Bomb (horse)
+  type: Horse
+- name: Cloud Computing (horse)
+  type: Horse
+- name: Easy Jet
+  type: Horse
+- name: Gay Trip
+  type: Horse
+- name: Germany (horse)
+  type: Horse
+- name: Halo (horse)
+  type: Horse
+- name: In Reality
+  type: Horse
+- name: Onion (horse)
+  type: Horse
+- name: Personality (horse)
+  type: Horse
+- name: Quack (horse)
+  type: Horse
+- name: Rooster Booster (horse)
+  type: Horse
+- name: Sir Gaylord
+  type: Horse
+- name: Soviet Song
+  type: Horse
+- name: Spain (horse)
+  type: Horse
+- name: Upset (horse)
+  type: Horse
+- name: Vodka (horse)
+  type: Horse
+- name: Yes Yes Yes (horse)
+  type: Horse
+- name: Toystory (bull)
+  type: Bull

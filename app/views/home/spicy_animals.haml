@@ -2,74 +2,9 @@
 
 Yes.
 
-%h2 Dogs
-
-%ul
-  %li
-    - wiki "Moose (dog)"
-  %li
-    - wiki "Orca (dog)"
-  %li
-    - wiki "Rags (dog)"
-  %li
-    - wiki "Red Dog (Pilbara)"
-
-%h2 Horses
-
-%ul
-  %li
-    - wiki "Alcohol (horse)"
-  %li
-    - wiki "Apollo Eleven (horse)"
-  %li
-    - wiki "Azertyuiop (horse)"
-  %li
-    - wiki "Baguette (horse)"
-  %li
-    - wiki "Barilla (horse)"
-  %li
-    - wiki "Bee Bee Bee"
-  %li
-    - wiki "Big Ben (horse)"
-  %li
-    - wiki "Bold Personality"
-  %li
-    - wiki "Cosmic Bomb (horse)"
-  %li
-    - wiki "Cloud Computing (horse)"
-  %li
-    - wiki "Easy Jet"
-  %li
-    - wiki "Gay Trip"
-  %li
-    - wiki "Germany (horse)"
-  %li
-    - wiki "Halo (horse)"
-  %li
-    - wiki "In Reality"
-  %li
-    - wiki "Onion (horse)"
-  %li
-    - wiki "Personality (horse)"
-  %li
-    - wiki "Rooster Booster (horse)"
-  %li
-    - wiki "Sir Gaylord"
-  %li
-    - wiki "Soviet Song"
-  %li
-    - wiki "Spain (horse)"
-  %li
-    - wiki "Quack (horse)"
-  %li
-    - wiki "Upset (horse)"
-  %li
-    - wiki "Vodka (horse)"
-  %li
-    - wiki "Yes Yes Yes (horse)"
-
-%h2 Other
-
-%ul
-  %li
-    - wiki "Toystory (bull)", delisp: false
+- SpicyAnimal.all.group_by(&:type).each do |type, animals|
+  %h2= type
+  %ul
+    - animals.sort_by(&:name).each do |x|
+      %li
+        - wiki x.name
