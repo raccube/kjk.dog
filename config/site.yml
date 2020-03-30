@@ -7,7 +7,7 @@ site:
   title: "kjk.dog"
   description: |-
     Another site created with FoxPage.
-  url: "https://example.com"  # the base hostname & protocol for your site
+  url: "https://kjk.dog"  # the base hostname & protocol for your site
 
   # You can also add your own items here.  For example, here is what a list of
   # social media sites could look like:
